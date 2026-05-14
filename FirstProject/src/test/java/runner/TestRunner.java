@@ -14,7 +14,7 @@ public class TestRunner extends BaseClase  {
                 PageObjectManager.getPageObjectManager().getCheckoutPage().checkOut();
                 //screenshort(PageObjectManager.getPageObjectManager().getFileReader().getDataProperty(value: "screenhort"));
                 //PageObjectManager.getPageObjectManager().getSearchProduct().searchProduct();
-                launchUrl(PageObjectManager.getPageObjectManager().getFileReader().getDataProperty("url"));
+
             }
         }
 
